@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "40K Calculator";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Warhammer 40,000: Coaching</h1> <br />
+    <h2>Learn to Play Warhammer 40K</h2>
+
+    <form class="align-content-center">
+        <label>Enter Hours: </label><br />
+        <input id="Hours"/> <h2>X</h2> <input name="Rate" value="$20/Hour" readonly/>
+        <br /><br />
+        <input type="button" value="Calculate Estimate" id="btnSubmit"/>
+        <br /> <br />
+        <div id="AnswerText" hidden>Total Estimate:</div>
+        <input name="Answer" id="Answer" hidden readonly />
+    </form>
+</div>
