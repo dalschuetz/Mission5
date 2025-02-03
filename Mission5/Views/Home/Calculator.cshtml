@@ -7,11 +7,15 @@
     <h2>Learn to Play Warhammer 40K</h2>
 
     <form class="align-content-center">
-        <label>Enter Hours: </label><br />
-        <input id="Hours"/> <h2>X</h2> <input name="Rate" value="$20/Hour" readonly/>
+        <label>Enter Number of Hours:</label><br />
+        <input id="Hours"/> 
+        <h2>X</h2> 
+        <label>Dallen's Rate:</label><br />
+        <input name="Rate" value="$20/Hour" readonly/>
         <br /><br />
         <input type="button" value="Calculate Estimate" id="btnSubmit"/>
         <br /> <br />
+        <!--Starts hidden, is populated by site.js and unhides using the same function-->
         <div id="AnswerText" hidden>Total Estimate:</div>
         <input name="Answer" id="Answer" hidden readonly />
     </form>
